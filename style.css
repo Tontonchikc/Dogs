@@ -1,0 +1,200 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family:  "Raleway", sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    color: #000;
+}
+.container{
+    width: 1320px;
+    margin: 0 auto;
+}
+ul,p,h1,h2,h3{
+    list-style-type: none;
+   margin: 0;
+   padding: 0;
+}
+a{
+    text-decoration: none;
+}
+/* Styles for header  */
+.header{
+    background-color:  #121212;
+    padding: 32px 0;
+    text-transform: uppercase;
+}
+.header-list{
+display: flex;
+gap:100px;
+}
+.header-link:hover{
+    font-family:"Oswald", sans-serif ;
+font-weight: 400;
+font-size: 24px;
+color: #b2ffa6;
+}
+.header-link{
+    font-weight: 400;
+    font-family:  "Oswald", sans-serif;
+font-size: 24px;
+color: #fff;
+}
+/* Styles for section one*/
+.hero{
+    background: #fff; 
+}
+.hero-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.hero-title{
+    font-weight: 700;
+    font-size: 64px;
+    margin-bottom: 50px;
+    text-transform: capitalize;
+}
+.hero-span{
+    font-weight: 400;
+    font-size: 64px;
+    margin-bottom: 20px;
+    display: inline-block;
+    }
+.hero-button{
+    border-radius: 5px;
+    padding: 15px 80px;
+    width: 364px;
+    height: 66px;
+    background-color: #b2ffa6;
+    font-family:"Oswald", sans-serif ;
+color: #000;
+text-transform: uppercase;
+}
+/* Styles for section two */
+.about-us{
+    background-color: #efefef;
+}
+.about-us-container{
+display: flex;
+align-items: center;
+gap:78px;
+}
+.about-us-title{
+    gap:30px;
+    font-weight: 700;
+    font-size: 40px;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+}
+.about-us-text{
+    font-weight: 400;
+    font-size: 32px;
+    margin-bottom: 30px;
+}
+.about-us-button{
+    border-radius: 5px;
+    padding: 15px 80px;
+    background: #b2ffa6;
+    font-family:"Oswald", sans-serif ;
+font-weight: 400;
+color: #000;
+display: inline-block;
+text-transform: uppercase;
+}
+/* Styles for section three */
+.advantages{
+    background-color: #fff;
+padding: 60px 0 ;
+}
+.advantages-container{
+    display: flex; 
+    align-items: center;
+}
+.advantages-caption{
+    font-weight: 700;
+    font-size: 32px;
+    margin-bottom: 25px;
+}
+.advantages-text{
+font-weight: 400;
+font-size: 24px;
+}
+.advantages-list{
+display: flex;
+flex-wrap: wrap;
+gap:115px;
+}
+.advantages-item{
+display: flex;
+width: 407px;
+}
+.advantages-img{
+margin-right: 28px;
+width: 50px;
+height: 50px;
+}
+/* Styles for section four */
+.services{
+    background-color: #efefef;
+    padding: 60px 0;
+    text-align: center;
+}
+.services-title{
+font-weight: 700;
+font-size: 40px;
+text-align: center;
+padding-bottom: 40px;
+}
+.services-text{
+font-weight: 400;
+font-size: 32px;
+text-align: center;
+margin-bottom: 56px;
+}
+.services-img{
+    border-radius: 10px;
+margin-bottom: 20px;
+}
+.services-texto{
+font-weight: 600;
+font-size: 24px;
+text-align: left;
+}
+.services-list{
+display: flex;
+justify-content: space-between;
+align-items: center;
+flex-wrap: wrap;
+}
+.services-button{
+    border: 3px solid #b2ffa6;
+border-radius: 5px;
+padding: 15px 80px;
+font-family:"Oswald", sans-serif ;
+font-weight: 400;
+font-size: 24px;
+color: #000;
+display: inline-block;
+justify-content: center;
+text-transform: uppercase;
+margin-top: 80px;
+}
+/* Styles for Footer */
+.footer-container{
+display: flex;
+justify-content: space-between;
+align-items: center;
+
+padding: 36px 0;
+}
+.footer{
+    background-color: #121212;
+}
+.footer-text{
+    font-family: "Raleway", sans-serif;
+font-weight: 400;
+font-size: 24px;
+color: #fff;
+text-transform: capitalize;
+}
